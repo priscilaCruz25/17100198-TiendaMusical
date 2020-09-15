@@ -4,6 +4,7 @@
   "description": "Mi página web\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dprimer proyecto html",
   "main": "index.html",
   "scripts": {
+    "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/priscilaCruz25/17100198-TiendaMusical/issues"
   },
-  "homepage": "https://github.com/priscilaCruz25/17100198-TiendaMusical#readme"
+  "homepage": "https://github.com/priscilaCruz25/17100198-TiendaMusical#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
