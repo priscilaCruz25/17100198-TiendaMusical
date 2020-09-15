@@ -1,0 +1,19 @@
+{
+  "name": "tiendamusical",
+  "version": "1.0.0",
+  "description": "Mi página web\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dprimer proyecto html",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priscilaCruz25/17100198-TiendaMusical.git"
+  },
+  "author": "Priscila Itama Cruz Alemán\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dr Cruz Alemán",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/priscilaCruz25/17100198-TiendaMusical/issues"
+  },
+  "homepage": "https://github.com/priscilaCruz25/17100198-TiendaMusical#readme"
+}
