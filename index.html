@@ -6,22 +6,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Tienda musical</title>
   <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <style>
+    .bg-jumbotron {
+      background-image:url("PortadaMusica.png");
+      background-size: cover;
+      background-position: 30%;
+      height: 70vh;
+    }
+  </style>
 </head>
 
 <body>
 
   <!-- CSS only -->
-
-
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-
-
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
           <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
         </li>
-      
+
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
             aria-expanded="false">Categorías</a>
@@ -55,11 +59,11 @@
   <main role="main">
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
+    <div class="jumbotron bg-jumbotron d-flex flex-column justify-content-center align-items-center text-white text-center">
       <div class="container">
         <h1 class="display-4">Clave de sol</h1>
         <p>Encontrarás las mejores ofertas en tus marcas de instrumentos preferidas.</p>
-        <p><a class="btn btn-outline-danger btn-lg" href="#" role="button">Ver más. &raquo;</a></p>
+        <p><button class="btn btn-outline-danger btn-lg" href="#" role="button">Ver más. &raquo;</button></p>
       </div>
     </div>
 
@@ -69,21 +73,29 @@
         <div class="col-md-4">
           <h2>Covers</h2>
           <p>Tus canciones favoritas con una calidad increíble... </p>
-          <p><a class="btn btn-danger" href="#" role="button">Más información&raquo;</a></p>
+          <p><button class="btn btn-danger" href="#" role="button">Más información&raquo;</button></p>
         </div>
         <div class="col-md-4">
           <h2>Lo último en marcas</h2>
-          <p>Sabemos que la calidad es importante, por eso tenemos para ti las mejores marcar al mejor precio. </p>
-          <p><a class="btn btn-danger" href="#" role="button">Más información&raquo;</a></p>
+          <p>Sabemos que la calidad es importante, por eso tenemos para ti las mejores marcas al mejor precio. </p>
+          <p><button class="btn btn-danger" href="#" role="button">Más información&raquo;</button></p>
         </div>
         <div class="col-md-4">
           <h2>Sucursales</h2>
           <p>Consulta nuestras sucursales dentro de la república mexicana.</p>
-          <p><a class="btn btn-danger" href="#" role="button">Más información&raquo;</a></p>
+          <p><button class="btn btn-danger" href="#" role="button">Más información&raquo;</button></p>
         </div>
       </div>
+      <!-- Pie de pàgina-->
+      <footer>
+        <div class="row">
+          <div class="col-sm-1 " style="font-size:larger;">
+            <a href="http://www.facebook.com">Facebook</a>
+            <a href="http://www.instagram.com">Instagram</a>
+            <a href="http://www.twitter.com">Twitter</a>
+          </div>
 
-
+      </footer>
       <!-- JS, Popper.js, and jQuery -->
       <script src="/node_modules/jquery/dist/jquery.slim.js"></script>
       <script src="/node_modules/poppers.js/dist/umd/popper.min.js"></script>
