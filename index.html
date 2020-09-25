@@ -6,11 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Tienda musical</title>
   <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/principal.css">
+
   <style>
     .bg-jumbotron {
-      background-image:url("PortadaMusica.png");
-      background-size: cover;
-      background-position: 30%;
+      background-image: url(imagenes/PortadaMusica2.png);
+      background-size: contain;
+      background-position: 100%;
       height: 70vh;
     }
   </style>
@@ -56,10 +58,9 @@
     </div>
   </nav>
 
-  <main role="main">
-
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron bg-jumbotron d-flex flex-column justify-content-center align-items-center text-white text-center">
+    <div
+      class="jumbotron bg-jumbotron d-flex flex-column justify-content-center align-items-center text-white text-center">
       <div class="container">
         <h1 class="display-4">Clave de sol</h1>
         <p>Encontrarás las mejores ofertas en tus marcas de instrumentos preferidas.</p>
@@ -68,34 +69,49 @@
     </div>
 
     <div class="container">
-      <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-4">
-          <h2>Covers</h2>
-          <p>Tus canciones favoritas con una calidad increíble... </p>
-          <p><button class="btn btn-danger" href="#" role="button">Más información&raquo;</button></p>
+
+      <div class="d-flex flex-wrap">
+        <div class="d-flex flex-column card-design justify-content-between">
+          <div>
+            <h2>Covers</h2>
+            <p>Tus canciones favoritas con una calidad increíble... </p>
+          </div>
+          <div><button class="btn btn-danger btn-ver">Más información</button></div>
         </div>
-        <div class="col-md-4">
-          <h2>Lo último en marcas</h2>
-          <p>Sabemos que la calidad es importante, por eso tenemos para ti las mejores marcas al mejor precio. </p>
-          <p><button class="btn btn-danger" href="#" role="button">Más información&raquo;</button></p>
+        <div class="d-flex flex-column card-design justify-content-between">
+          <div>
+            <h2>Lo último en marcas</h2>
+            <p>Sabemos que la calidad es importante, por eso tenemos para ti las mejores marcas al mejor precio.</p>
+          </div>
+          <div><button class="btn btn-danger btn-ver">Más información</button></div>
         </div>
-        <div class="col-md-4">
-          <h2>Sucursales</h2>
-          <p>Consulta nuestras sucursales dentro de la república mexicana.</p>
-          <p><button class="btn btn-danger" href="#" role="button">Más información&raquo;</button></p>
+        <div class="d-flex flex-column card-design justify-content-between">
+          <div>
+            <h2>Sucursales</h2>
+            <p>Consulta nuestras sucursales dentro de la república mexicana.</p>
+          </div>
+          <div><button class="btn btn-danger btn-ver">Más información</button></div>
         </div>
       </div>
+    </div>
+      
       <!-- Pie de pàgina-->
       <footer>
         <div class="row">
-          <div class="col-sm-1 " style="font-size:larger;">
-            <a href="http://www.facebook.com">Facebook</a>
-            <a href="http://www.instagram.com">Instagram</a>
-            <a href="http://www.twitter.com">Twitter</a>
+            <div class="col-sm-4 " style="font-size:larger;">
+                <a href="http://www.facebook.com">Facebook</a>
+                <a href="http://www.instagram.com">Instagram</a>
+                <a href="http://www.twitter.com">Twitter</a>
+            </div>
+            <div class="col-sm-4">
+              <address>
+                  <h5>Nuestra ubicación</h5>
+                  <div>Abeto 5516</div>
+                  <div>Col. Los Encinos</div>
+                  <div>Nuevo Laredo, Tamaulipas, Mexico</div>
+              </address>
           </div>
-
-      </footer>
+    </footer>
       <!-- JS, Popper.js, and jQuery -->
       <script src="/node_modules/jquery/dist/jquery.slim.js"></script>
       <script src="/node_modules/poppers.js/dist/umd/popper.min.js"></script>

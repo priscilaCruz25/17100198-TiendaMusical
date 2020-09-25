@@ -1,0 +1,27 @@
+.card-design {
+    flex: 1 250px;
+    padding: 2px 5px 2px 5px; 
+    margin-top: 15px;
+    }
+
+    .btn-ver{
+        width: 50%;
+    }
+    .jumbotron{
+        background-color: rgb(189, 50, 7);
+        color: #ffffff;
+    }
+    
+    footer{
+        padding: 10px 20px 0px 20px;
+        background-color: rgb(10, 10, 10);
+        color: #ffffff;
+        margin-bottom: 0px;
+        margin-top: 30px;
+        
+        
+    }
+    footer a{
+    color: #ffffff;
+    }
+    
