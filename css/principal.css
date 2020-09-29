@@ -8,10 +8,16 @@
         width: 50%;
     }
     .jumbotron{
-        background-color: rgb(189, 50, 7);
-        color: #ffffff;
+        background-color: black);
+        color: #000000;
     }
     
+    
+    
+    .container{
+        text-align: center;
+    }
+
     footer{
         padding: 10px 20px 0px 20px;
         background-color: rgb(10, 10, 10);

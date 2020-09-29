@@ -5,8 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Tienda musical</title>
+
   <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="/css/principal.css">
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
 
   <style>
     .bg-jumbotron {
@@ -22,30 +24,30 @@
 
   <!-- CSS only -->
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <div class="collapse navbar-collapse" id="navegacion">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+          <a class="nav-link active" href="/Inicio.html">Inicio <span class="sr-only">(current)</span></a>
         </li>
 
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
-            aria-expanded="false">Categorías</a>
+          <a class="nav-link dropdown-toggle active" href="#" id="dropdown01" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">Categorías</a>
           <div class="dropdown-menu" aria-labelledby="dropdown01">
-            <a class="dropdown-item" href="#">Instrumentos de cuerda</a>
+            <a class="dropdown-item" href="">Instrumentos de cuerda</a>
             <a class="dropdown-item" href="#">Instrumentos de viento</a>
             <a class="dropdown-item" href="#">Teclados</a>
             <a class="dropdown-item" href="#">Accesorios musicales</a>
             <a class="dropdown-item" href="#">Percursión</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Otros instrumentos</a>
+            <a class="dropdown-item" href="http://www.instagram.com">Otros instrumentos</a>
           </div>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="#">Lo más nuevo<span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="/lonuevo.html">Lo más nuevo<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="#">Sobre nosotros<span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="/SobreNosotros.html">Sobre nosotros<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active">
           <a class="nav-link" href="#">Contáctanos<span class="sr-only">(current)</span></a>
@@ -58,64 +60,66 @@
     </div>
   </nav>
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div
-      class="jumbotron bg-jumbotron d-flex flex-column justify-content-center align-items-center text-white text-center">
-      <div class="container">
-        <h1 class="display-4">Clave de sol</h1>
-        <p>Encontrarás las mejores ofertas en tus marcas de instrumentos preferidas.</p>
-        <p><button class="btn btn-outline-danger btn-lg" href="#" role="button">Ver más. &raquo;</button></p>
-      </div>
-    </div>
-
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <div
+    class="jumbotron bg-jumbotron d-flex flex-column justify-content-center align-items-center text-white text-center">
     <div class="container">
+      <h1 class="display-4">Clave de sol</h1>
+      <h4>Tus marcas de instrumentos preferidas.</h4>
+      <p><button class="btn btn-outline-danger btn-lg" href="#" role="button">Ver más. &raquo;</button></p>
+    </div>
+  </div>
 
-      <div class="d-flex flex-wrap">
-        <div class="d-flex flex-column card-design justify-content-between">
-          <div>
-            <h2>Covers</h2>
-            <p>Tus canciones favoritas con una calidad increíble... </p>
-          </div>
-          <div><button class="btn btn-danger btn-ver">Más información</button></div>
+  <div class="container">
+
+    <div class="d-flex flex-wrap">
+      <div class="d-flex flex-column card-design justify-content-between">
+        <div>
+          <h2>Covers</h2>
+          <p>Tus canciones favoritas con una calidad increíble... </p>
         </div>
-        <div class="d-flex flex-column card-design justify-content-between">
-          <div>
-            <h2>Lo último en marcas</h2>
-            <p>Sabemos que la calidad es importante, por eso tenemos para ti las mejores marcas al mejor precio.</p>
-          </div>
-          <div><button class="btn btn-danger btn-ver">Más información</button></div>
+        <div><button class="btn btn-danger btn-ver">Más información</button></div>
+      </div>
+      <div class="d-flex flex-column card-design justify-content-between">
+        <div>
+          <h2>Lo último en marcas</h2>
+          <p>Sabemos que la calidad es importante, por eso tenemos para ti las mejores marcas al mejor precio.</p>
         </div>
-        <div class="d-flex flex-column card-design justify-content-between">
-          <div>
-            <h2>Sucursales</h2>
-            <p>Consulta nuestras sucursales dentro de la república mexicana.</p>
-          </div>
-          <div><button class="btn btn-danger btn-ver">Más información</button></div>
+        <div><button class="btn btn-danger btn-ver">Más información</button></div>
+      </div>
+      <div class="d-flex flex-column card-design justify-content-between">
+        <div>
+          <h2>Sucursales</h2>
+          <p>Consulta nuestras sucursales dentro de la república mexicana.</p>
         </div>
+        <div><button class="btn btn-danger btn-ver">Más información</button></div>
       </div>
     </div>
-      
-      <!-- Pie de pàgina-->
-      <footer>
-        <div class="row">
-            <div class="col-sm-4 " style="font-size:larger;">
-                <a href="http://www.facebook.com">Facebook</a>
-                <a href="http://www.instagram.com">Instagram</a>
-                <a href="http://www.twitter.com">Twitter</a>
-            </div>
-            <div class="col-sm-4">
-              <address>
-                  <h5>Nuestra ubicación</h5>
-                  <div>Abeto 5516</div>
-                  <div>Col. Los Encinos</div>
-                  <div>Nuevo Laredo, Tamaulipas, Mexico</div>
-              </address>
-          </div>
-    </footer>
-      <!-- JS, Popper.js, and jQuery -->
-      <script src="/node_modules/jquery/dist/jquery.slim.js"></script>
-      <script src="/node_modules/poppers.js/dist/umd/popper.min.js"></script>
-      <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  </div>
+
+  <!-- Pie de pàgina-->
+  <footer>
+    <div class="row">
+      <div class="col-sm-4 " style="font-size:larger;">
+
+        <i class="fa fa-facebook-official" aria-hidden="true"></i><a href="http://www.facebook.com"> Facebook</a><br>
+        <i class="fa fa-instagram" aria-hidden="true"></i> <a href="http://www.instagram.com"> Instagram</a><br>
+        <i class="fa fa-twitter" aria-hidden="true"></i><a href="http://www.twitter.com"> Twitter</a><br>
+      </div>
+      <div class="col-sm-4">
+        <address>
+          <i class="fa fa-map-marker" aria-hidden="true"></i>
+          <h5> Nuestra ubicación</h5>
+          <div>Abeto 5516</div>
+          <div>Col. Los Encinos</div>
+          <div>Nuevo Laredo, Tamaulipas, Mexico</div>
+        </address>
+      </div>
+  </footer>
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="/node_modules/jquery/dist/jquery.slim.js"></script>
+  <script src="/node_modules/poppers.js/dist/umd/popper.min.js"></script>
+  <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>
