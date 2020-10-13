@@ -5,7 +5,9 @@
   "main": "index.html",
   "scripts": {
     "dev": "lite-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass -o css/ css/",
+    "less": "lessc css/styles2.less css/style2.css"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,8 @@
   "dependencies": {
     "bootstrap": "^4.5.2",
     "jquery": "^3.5.1",
-    "poppers.js": "^1.16.1"
+    "less": "^3.12.2",
+    "poppers.js": "^1.16.1",
+    "sass": "^1.27.0"
   }
 }
