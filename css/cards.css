@@ -1,0 +1,23 @@
+.card-design {
+    flex: 1 250px;
+    padding: 2px 5px 2px 5px; 
+    margin-top: 15px;
+    text-align: center;
+    }
+
+    .btn-ver{
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    footer{
+        padding: 10px 10px 0 10px;
+        background-color: black;
+        color:rgb(255, 255, 255);
+        margin-bottom: 0px;
+        margin-top: 30px;
+    }
+    
+    footer a{
+        color:rgb(255, 255, 255);
+    }
